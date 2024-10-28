@@ -7,7 +7,8 @@ namespace TAZASTICH
     {
         static void Main(string[] args)
         {
-            Converters.ConvertMilimeters();
+            Console.WriteLine("Hola Mundo");
+            Console.ReadKey();
         }
     }
 }
