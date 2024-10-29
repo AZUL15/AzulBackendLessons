@@ -7,7 +7,10 @@ namespace TAZASTICH
     {
         static void Main(string[] args)
         {
-            Converters.ConvertMilimeters();
+            Console.WriteLine("Write a number");
+            var Number = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine((Number % 2) == 0);
+            Console.ReadKey();
         }
     }
 }
